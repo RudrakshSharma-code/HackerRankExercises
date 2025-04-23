@@ -12,6 +12,13 @@ class Result {
      * The function accepts 2D_INTEGER_ARRAY arr as parameter.
      */
 
+    /*
+     * The first line input contains a single integer, n, the number of rows and columns in
+     * the square matrix arr.
+     * Each of the next n lines describes a row, arr[i] , and consists of space-separated
+     * integers arr[i][j].
+     */
+
     public static int diagonalDifference(List<List<Integer>> arr) {
         Integer leftToRight = 0;
         Integer rightToLeft = 0;
